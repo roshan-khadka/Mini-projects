@@ -1,3 +1,5 @@
+#: A simple blackjack hand calculator from Kaggle
+
 def hand_total(hand):
     """Helper function to calculate the total points of a blackjack hand.
     """
@@ -28,3 +30,6 @@ def blackjack_hand_greater_than(hand_1, hand_2):
     total_1 = hand_total(hand_1)
     total_2 = hand_total(hand_2)
     return total_1 <= 21 and (total_1 > total_2 or total_2 > 21)
+
+print(blackjack_hand_greater_than(['J','A','10'], ['8','1','10']))
+#>> True
