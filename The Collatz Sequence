@@ -11,4 +11,3 @@ try:
         n = collatz_sequence(n)
 except ValueError:
     print("It is not an integer!")
-    print("It is not an integer!")
