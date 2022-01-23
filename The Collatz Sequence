@@ -1,5 +1,6 @@
 #: The Collatz Sequence - "the simplest impossible math problem"
 #: Automate the boring stuff with the Python
+
 def collatz_sequence(number):
     if number % 2 == 0:
         print(number // 2)
