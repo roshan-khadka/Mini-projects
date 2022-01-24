@@ -55,3 +55,10 @@ def check_tie():
 def switch_player():
     return
          
+def player_input():
+    inp = input("Choose a number from (1-9): ")
+    position = int(inp) - 1
+    board[position] = "X"
+    board_display()
+    
+start_game()
